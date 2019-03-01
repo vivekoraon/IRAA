@@ -1,0 +1,169 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+.header{
+	height: 100px;
+	padding:10px;
+	background:#EBEBEB;
+}
+.header h3{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding: 10px;
+	border-right: 2px solid #304FFE;
+	font-weight: bold;
+}
+.header h5{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding: 10px;
+}
+.header button{
+	margin: 20px 10px 0 0;
+	background:#304FFE;
+	border-radius: 20px;
+	color: white;
+}
+.header button:hover{
+	border: 1px solid #304FFE;
+	background:white;
+	color: #304FFE;
+}
+@media(max-width: 992px){
+	.container{
+		padding:0;
+	}
+}
+@media(max-width: 768px){
+	.header h5{
+		font-size: 80%;
+	}
+	.header h3{
+		font-size: 80%;
+	}
+}
+.navbar{
+	background:#212121;
+	margin: 0;
+	padding: 0;
+	border-top: 5px solid #304FFE;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar .navbar-nav .nav-item a{
+	color:lightgrey;
+	border-right: 1px solid grey;
+	padding: 8px 40px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+	background:#304FFE;
+	color: white;
+}
+.navbar .dropdown .dropdown-menu{
+	background: #212121;
+	font-size: 85%;
+}
+.navbar .dropdown .dropdown-menu .dropdown-item{
+	border:none;
+}
+.dir_msg{
+	padding: 20px;
+	margin-top: 30px;
+}
+.dir_msg .row{
+	border-radius: 5px;
+	padding: 20px 10px 10px;
+	background: #EBEBEB;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dir_msg .col-md-10 p{
+	color: #212121;
+}
+.footer{
+	background: #212121;
+	color: lightgrey;
+	font-size: 14px;
+}
+.footer p{
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+/* International Relations */
+.main{
+	margin-top: 20px;
+	padding: 20px;
+}
+.main h5{
+	border-bottom: 1px solid #424242;
+	padding-bottom: 10px;
+}
+.main .ictp{
+	margin-top: 30px;
+	padding: 20px;
+	background: #EBEBEB ;
+	color: #212121;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* location.html */
+#facilities{
+	margin-top: 20px;
+	padding: 20px;
+}
+#facilities h4{
+	border-bottom: 1px solid #424242;
+	padding-bottom: 10px;
+}
+#facilities .row{
+	margin-top: 30px;
+}
+#facilities .col-md-4 p{
+	background:#304FFE;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* visitors.html */
+#visitors{
+	margin-top: 20px;
+	padding: 20px;
+}
+#visitors h4{
+	padding: 10px;
+	background:#304FFE;
+	color: white;
+}
+#visitors ol{
+	border: 1px solid #304FFE;
+}
+#visitors p{
+	padding: 10px;	
+}
+#visitors li{
+	border-bottom: 1px solid #304FFE;
+}
+#visitors li:last-child{
+	border: none;
+}
+
+/* internationalStudents.html */
+#intStudents{
+	padding: 20px;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('..//img/map1.jpg') center no-repeat;
+	background-size: cover;
+	color: white;
+}
+#intStudents h4{
+	padding: 10px;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#intStudents .col-md-4 p{
+	color: white;
+	background:#424242;
+	padding: 10px;
+}
